@@ -26,10 +26,11 @@ var Game = {
       type: 'GET',
       url: Game.config.url,
       success: function(people) {
-        console.log(people[0].name);
-        var template = _.template($('#PeopleTmpl').html());
+        var img = people[0].url;
         var name = people[0].name;
-        return name;
+        var template = _.template($('#PeopleTmpl').html());
+        var url = template({url: img});
+        $('section').html(url);
       }
     });
   }
