@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Name Game</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- <script type="html/template" id="PeopleTmpl">
+    <article class='pair'>
+      <h3 <%= name %> ></h3>
+      <img src='<%= url %>' >
+    </article>
+
+  </script> -->
+</head>
+<body>
+  <div class="play">
+    <h1>Welcome to the Name Game!</h1>
+    <h5>Choose a mode to get started.</h5>
+  </div>
+  <div class="buttons">
+    <button id="normal">Normal Mode</button>
+    <button id="reverse">Reverse Mode</button>
+    <button id ="mattmode">Matt Mode</button>
+  </div>
+  <div class="nextbuttons">
+    <button id="next1">Next</button>
+    <button id="next2">Next</button>
+    <button id="next3">Next</button>
+    <button id="next4">Next</button>
+    <button id="start">Play the Game</button>
+  </div>
+
+  <div class="who">
+    <h4 id="charlieWho">Who is Charlie Fairchild?</h4>
+    <h4 id="jasonWho">Who is Jason See?</h4>
+    <h4 id="blakeWho">Who is Blake Sirach?</h4>
+    <h4 id="tylerWho">Who is Tyler?</h4>
+    <h4 id="jossayWho">Who is Jossay Jacobo?</h4>
+  </div>
+
+<section>
+  <div id="blake"></div>
+  <div id="charlie"></div>
+  <div id="jason"></div>
+  <div id="jossay"></div>
+  <div id="tyler"></div>
+</section>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+
+  <script src="templates.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

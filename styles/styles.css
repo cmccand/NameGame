@@ -1,0 +1,57 @@
+@font-face {
+  font-family: TikalSans;
+  src: url(TikalSans-Medium.otf); }
+.peeps {
+  display: none; }
+
+h1 {
+  text-align: center;
+  font-family: TikalSans; }
+
+.who h4 {
+  font-family: TikalSans; }
+
+section {
+  text-align: center; }
+  section div .peeps h4, section div .peeps h5 {
+    font-family: TikalSans; }
+
+img {
+  display: inline-block;
+  border-radius: 10%; }
+
+.play {
+  text-align: center;
+  font-family: TikalSans; }
+
+.buttons {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  font-family: TikalSans; }
+  .buttons h5 {
+    text-align: center;
+    font-family: TikalSans; }
+  .buttons button {
+    text-align: center;
+    display: inline-block;
+    width: 28%;
+    margin: 2%;
+    padding: 1.5%;
+    font-size: 2vw;
+    border-radius: 10%;
+    font-family: TikalSans;
+    background-color: white; }
+
+.nextbuttons, .who {
+  display: none;
+  font-family: TikalSans; }
+
+.multiplechoice {
+  display: inline-block;
+  width: 5%;
+  margin: 1%; }
+  .multiplechoice:hover {
+    background-color: black; }
+
+/*# sourceMappingURL=styles.css.map */
